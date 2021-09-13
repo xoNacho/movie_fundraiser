@@ -56,11 +56,10 @@ name = ""
 ticket_count = 0
 ticket_sales = 0
 
-
 while name != "xxx" and ticket_count < MAX_TICKETS:
 
     # tell users how many seats are left
-    if ticket_count < - 1:
+    if ticket_count < 4:
         print("You have {} seats "
               "left".format(MAX_TICKETS - ticket_count ))
 
@@ -110,9 +109,7 @@ print("Ticket profit: ${:.2f}".format(ticket_profit))
 if ticket_count == MAX_TICKETS:
     print("You have sold all the avaliable tickets! ")
 else:
-    print(" You have {} tickets.    \n"
-          "There are {} places still avaliable"
-          .format(ticket_count, MAX_TICKETS - ticket_count))
+    print(" You have {} tickets.There are {} places still available".format(ticket_count, MAX_TICKETS - ticket_count))
 
 
 
