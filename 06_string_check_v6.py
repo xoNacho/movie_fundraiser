@@ -1,5 +1,6 @@
 import re
 
+
 # Functions go here
 def string_check(choice, options):
     for var_list in options:
